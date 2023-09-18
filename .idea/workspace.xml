@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28432a78-66d9-4b3d-936c-eb6c425c9893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsultaMedia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/DAO/ConsultaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/DAO/MedicoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/DAO/PacienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/Medico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/principal/Paciente.java" afterDir="false" />
+    <list default="true" id="28432a78-66d9-4b3d-936c-eb6c425c9893" name="Changes" comment="Programa para gestao de consultas completo">
+      <change beforePath="$PROJECT_DIR$/ConsultaMedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultaMedica.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +43,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="principal.Main" />
-      <module name="ConsultaMedia" />
+      <module name="ConsultaMedica" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="principal.*" />
@@ -71,13 +56,26 @@
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="principal.Main2" />
-      <module name="ConsultaMedia" />
+      <module name="ConsultaMedica" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="principal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ConsultaMedica" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ConsultaMedica" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,6 +96,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694780572824</updated>
     </task>
+    <task id="LOCAL-00001" summary="Programa para gestao de consultas completo">
+      <created>1695052579826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695052579826</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Programa para gestao de consultas completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa para gestao de consultas completo" />
   </component>
 </project>
